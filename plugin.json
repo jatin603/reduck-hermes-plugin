@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "reduck",
+  "version": "0.1.0",
+  "description": "Run tested browser scripts on any website, in your own Chrome signed in as you, or build new ones.",
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "config_schema": {
+        "api_key": {
+          "type": "secret",
+          "env": "REDUCK_API_KEY",
+          "label": "Reduck API key",
+          "description": "Create one at https://reduck.ai/api-keys."
+        }
+      }
+    }
+  }
+}
